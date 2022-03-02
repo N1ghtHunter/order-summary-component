@@ -1,0 +1,76 @@
+body{
+    font-size: 14px;
+    font-family: 'Red Hat Display', sans-serif;
+    text-align: center;
+    background-image: url(images/pattern-background-desktop.svg);
+    background-repeat: repeat-x;
+    background-color: hsl(225, 100%, 94%);
+    color: #1f2f56;
+}
+.container{
+    min-width: 345px;
+    max-width: 450px;
+}
+
+/* card decoration */
+.card-img-top{
+    border-radius: 15px 15px 0 0;
+    margin-bottom: 20px;
+}
+.card{
+    margin: 100px auto;
+    border-radius: 15px;
+}
+/* Card propraties */
+.card-body{
+    margin: 15px;
+}
+h2,h5{
+    font-weight: 900;
+}
+p{
+    font-weight: 500;
+    color: #7280a7; 
+}
+.plan p,h5{
+    margin: 0%;
+    font-size: 1rem;
+}
+.plan a{
+    color: #3829e0;
+    font-weight: 900;
+}
+.plan a:hover{
+    color: #766cf1;
+    text-decoration: none;
+}
+.plan{
+    border-radius: 15px;
+    background-color: #f5f7ff;
+    padding: 10px 10px;
+    margin: 1rem;
+    text-align: left;
+}
+.col{
+    vertical-align: middle;
+    margin: auto;
+}
+
+/* Buttons */
+.card button{
+    border-radius: 1rem;
+    padding: 10px;
+    font-weight: 700;
+    margin: 10px;
+}
+.proceed-btn{
+    color: white;
+    background-color: #3829e0;
+}
+.proceed-btn:hover{
+    background-color: #766cf1;
+    color: white;
+}
+.cancel-btn{
+    color:#7280a7 ;
+}
