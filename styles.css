@@ -7,9 +7,10 @@ body{
     background-color: hsl(225, 100%, 94%);
     color: #1f2f56;
 }
-.container{
+.container-fluid{
     min-width: 345px;
     max-width: 450px;
+    
 }
 
 /* card decoration */
@@ -20,6 +21,10 @@ body{
 .card{
     margin: 100px auto;
     border-radius: 15px;
+    box-shadow: 0px 16px 19px 1px rgba(0,0,0,0.22);
+    -webkit-box-shadow: 0px 16px 19px 1px rgba(0,0,0,0.22);
+    -moz-box-shadow: 0px 16px 19px 1px rgba(0,0,0,0.22);
+    border: none;
 }
 /* Card propraties */
 .card-body{
@@ -66,6 +71,9 @@ p{
 .proceed-btn{
     color: white;
     background-color: #3829e0;
+    box-shadow: 0px 16px 19px 1px rgba(118,108,241,0.25);;
+-webkit-box-shadow: 0px 16px 19px 1px rgba(118,108,241,0.25);;
+-moz-box-shadow: 0px 16px 19px 1px rgba(118,108,241,0.25);;
 }
 .proceed-btn:hover{
     background-color: #766cf1;
